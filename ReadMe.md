@@ -1,11 +1,22 @@
-This is a fork of MPh library that apparently works Apple Mac Arm (M1, M2, M3) devices.
-Only discovery.py file is modified.
-This fork is only tested for COMSOL Multiphysics 6.0.0.318 on Mac M1. 
-It does not work for the latest COMSOL version 6.1 at the moment, though I was able to make it work locally on Mac M2 but I have not updated the code to do so.
- 
- ## Original README
- 
- # MPh
+# MPh-Arm64
+This is a fork of MPh library that apparently works Apple Mac Arm (M1, M2, M3) devices in which only discovery.py file is modified.
+This fork is only tested for COMSOL Multiphysics 6.0.0.318 on Mac M1. It does not work for the latest COMSOL version 6.1 at the moment, though I was able to make it work locally on Mac M2 but I have not updated the code to do so.
+
+### Usage
+Assuming you have `git` and `pip` installed in your environment:
+
+    pip install git+https://github.com/The-Alley/MPh-Arm64.git
+
+To import the package, simply use:
+
+    import mph
+
+If you encountered  `Attempt to deallocate stack guard pages failed` and `Attempt to protect stack guard pages failed` warnings just ignore them.
+
+
+## Original README
+
+# MPh
 *Pythonic scripting interface for Comsol Multiphysics*
 
 [Comsol] is a commercial software application that is widely used in
@@ -34,17 +45,17 @@ Find the full [documentation on Read-the-Docs][docs].
 [docs]:   https://mph.readthedocs.io
 
 [![release page](
-    https://img.shields.io/pypi/v/mph.svg?label=release)](
-    https://pypi.python.org/pypi/mph)
+https://img.shields.io/pypi/v/mph.svg?label=release)](
+https://pypi.python.org/pypi/mph)
 [![download statistics](
-    https://img.shields.io/pypi/dm/MPh)](
-    https://pypistats.org/packages/mph)
+https://img.shields.io/pypi/dm/MPh)](
+https://pypistats.org/packages/mph)
 [![scientific citation](
-    https://zenodo.org/badge/264718959.svg)](
-    https://zenodo.org/badge/latestdoi/264718959)
+https://zenodo.org/badge/264718959.svg)](
+https://zenodo.org/badge/latestdoi/264718959)
 [![coverage report](
-    https://img.shields.io/codecov/c/github/MPh-py/MPh?token=02ZZ8ZJH3M)](
-    https://codecov.io/gh/MPh-py/MPh)
+https://img.shields.io/codecov/c/github/MPh-py/MPh?token=02ZZ8ZJH3M)](
+https://codecov.io/gh/MPh-py/MPh)
 [![latest documentation](
-    https://readthedocs.org/projects/mph/badge/?version=latest)](
-    https://mph.readthedocs.io/en/latest)
+https://readthedocs.org/projects/mph/badge/?version=latest)](
+https://mph.readthedocs.io/en/latest)
