@@ -1,4 +1,11 @@
-﻿# MPh
+This is a fork of MPh library that apparently works Apple Mac Arm (M1, M2, M3) devices.
+Only discovery.py file is modified.
+This fork is only tested for COMSOL Multiphysics 6.0.0.318 on Mac M1. 
+It does not work for the latest COMSOL version 6.1 at the moment, though I was able to make it work locally on Mac M2 but I have not updated the code to do so.
+ 
+ ## Original README
+ 
+ # MPh
 *Pythonic scripting interface for Comsol Multiphysics*
 
 [Comsol] is a commercial software application that is widely used in
